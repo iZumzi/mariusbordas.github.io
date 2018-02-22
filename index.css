@@ -1,0 +1,50 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    padding: 20px;
+}
+
+form header {
+    margin: 0 0 20px 0;
+}
+
+form header h2 {
+    margin: 0 0 5px 0;
+}
+
+form > .first-container {
+    clear: both;
+    padding: 1px;
+    margin: 0 0 10px 0;
+}
+
+form > .first-container > .second-container {
+    width: 100%;
+    float: left;
+}
+
+
+input[type=text] {
+    max-width: 90%;
+    border-top: 1px solid #ccc;
+    border-left: 1px solid #ccc;
+    border-right: 1px solid #eee;
+    border-bottom: 1px solid #eee;
+}
+
+input[type=text]:focus {
+    outline: 0;
+    border-color: #00bbff;
+}
+
+form > .first-container > .second-container > .third-container {
+    width: 100%;
+}
+
+button {
+    float: left;
+    max-width: 64%;
+    margin: 50px 0 20px 0;
+}
